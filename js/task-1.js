@@ -1,6 +1,6 @@
-// Droid Siparişi
+// Droid Siparişleri
 
-function makeTransaction(quantity, pricePerDroid) {
+function makeTransaction(quantity, pricePerDroid, customerCredits) {
     let totalPrice = quantity * pricePerDroid
     return `You ordered ${quantity} droids worth ${totalPrice} credits!`
 }
