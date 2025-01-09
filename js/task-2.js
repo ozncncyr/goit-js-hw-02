@@ -1,7 +1,6 @@
 // Mesaj Biçimlendirme
 
 function formatMessage(message, maxLength) {
-  let result = message.slice(0, maxLength);
   if (message.length <= maxLength) {
     return message;
   }
